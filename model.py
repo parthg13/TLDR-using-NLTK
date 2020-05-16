@@ -9,7 +9,6 @@ Created on Fri May 15 13:57:28 2020
 """
 # importing required libraries
 # from flask import Flask, render_template, request
-import nltk; nltk.download('popular')
 from nltk.corpus import stopwords
 from nltk.cluster.util import cosine_distance
 import numpy as np
